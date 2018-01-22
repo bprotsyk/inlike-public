@@ -1,5 +1,5 @@
 InLike.processEvent = function(jsonEvent) {
-    var event = JSON.parse(jsonEvent);
+    var event = JSON.parse(jsonEvent); 
 
     InLike.currentEvent = event;
     switch (event.type){
