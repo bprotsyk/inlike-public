@@ -5,7 +5,7 @@ InLike.isBodyLoaded = function() {
 //in future implement timer (to track if page didn't load)
 InLike.analyse = function() {
   var isNotLoggedIn = function() {
-    return typeof $(".not-logged-in")[0] != "undefined";
+    return $("html.not-logged-in")[0] != null; 
   };
 
   if (!InLike.isBodyLoaded()) {
