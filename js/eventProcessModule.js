@@ -13,10 +13,10 @@ InLike.processEvent = function(jsonEvent) {
     }
 }
 
-InLike.onEventSuccess  = function(event) {//?
+InLike.onEventSuccess  = function(e) {//?
     //InLikeHandler.onEventSuccess(event.type, JSON.stringify(event));
 }
 
-InLike.onEventFailure = function(event, reason) {
+InLike.onEventFailure = function(e, reason) {
     //InLikeHandler.onEventFailure(event.type, JSON.stringify(event), reason);
 }
