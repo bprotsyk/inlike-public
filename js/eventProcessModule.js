@@ -14,9 +14,9 @@ InLike.processEvent = function(jsonEvent) {
 }
 
 InLike.onEventSuccess  = function(event) {//?
-    InLikeHandler.onEventSuccess(event.type, JSON.stringify(event));
+    //InLikeHandler.onEventSuccess(event.type, JSON.stringify(event));
 }
 
 InLike.onEventFailure = function(event, reason) {
-    InLikeHandler.onEventFailure(event.type, JSON.stringify(event), reason);
+    //InLikeHandler.onEventFailure(event.type, JSON.stringify(event), reason);
 }
